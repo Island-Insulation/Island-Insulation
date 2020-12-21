@@ -2863,6 +2863,9 @@ ul.brand-list li a{
 }
 
 /*Testimonial Style One*/
+.htmega-testimonial-activation {
+  z-index: 1;
+}
 .htmega-testimonial-style-1 .testimonal {
     text-align: center;
 }
@@ -2922,6 +2925,7 @@ ul.brand-list li a{
     transform: translate(-50%, -50%);
     border: 1px solid #6e6e6e;
     border-radius: 100%;
+    max-width: 100%;
 }
 
 .htmega-testimonial-style-2 .testimonal .content {
@@ -4211,6 +4215,9 @@ textarea {
   text-decoration: none;
 }
 
+.htmega-service .thumb{
+  display: inline-block;
+}
 .htmega-service .thumb a {
   display: block;
 }
@@ -9074,11 +9081,8 @@ button.htmega-notify-button {
 
 .htmega-error-style-3 .content a.page-back-btn {
     background: #fd5c5e;
-    width: 80px;
     display: inline-block;
-    height: 80px;
-    border-radius: 100%;
-    line-height: 80px;
+    border-radius: 31px;
     color: #d5cff2;
     font-size: 36px;
     transition: 0.5s ease-in-out;
@@ -9093,7 +9097,6 @@ button.htmega-notify-button {
     transform: scale(1.2);
     background: #18012c;
     color: #ffffff;
-    border-radius: 100%;
 }
 
 /*404 Styly 04*/
@@ -9153,6 +9156,9 @@ button.htmega-notify-button {
 }
 .htmega-counter-icon svg {
   width: 20px;
+}
+.htmega-counter-area .htmega-counter-img{
+  display: inline-block;
 }
 
 /*Counterup Style 1*/
@@ -14627,6 +14633,7 @@ a.htmega-downloadbtn {
     /* Activate hardware acceleration for smoother animations */
     -webkit-transform: translate3d(0, 0, 0);
     -webkit-backface-visibility: hidden;
+   background-color: #007bff; 
 }
 
 
